@@ -27,3 +27,4 @@ dist
 elasticsearch-*
 config/base.yaml
 typings
+config.bat
