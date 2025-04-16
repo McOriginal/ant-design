@@ -74,5 +74,5 @@ __image_snapshots__/
 .node-version
 .node
 
-.env
 examples/
+config.bat
