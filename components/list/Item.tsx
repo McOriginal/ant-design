@@ -35,9 +35,6 @@ export interface ListItemMetaProps {
   styles?: Partial<Record<ListItemMetaSemanticName, React.CSSProperties>>;
 }
 
-type ListItemClassNamesModule = keyof Exclude<ListItemProps['classNames'], undefined>;
-type ListItemStylesModule = keyof Exclude<ListItemProps['styles'], undefined>;
-
 export const Meta: FC<ListItemMetaProps> = ({
   prefixCls: customizePrefixCls,
   className,
